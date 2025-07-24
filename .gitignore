@@ -1,0 +1,10 @@
+# Node modules
+node_modules/
+
+# Archivos temporales
+.DS_Store
+*.log
+
+# Archivos de desarrollo
+.env
+*.zip
