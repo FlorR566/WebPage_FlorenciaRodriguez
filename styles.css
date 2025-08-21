@@ -17,7 +17,7 @@ header {
   color: white;
   padding: 1rem;
   position: fixed;
-  z-index: 2;
+  z-index: 3;
   width: 100%;
   top: 0;
   left: 0;
@@ -117,7 +117,7 @@ header {
   color: white;
 }
 .hero-content {
-  z-index: 3;
+  z-index: 2;
 }
 
 .hero-content h1 {
