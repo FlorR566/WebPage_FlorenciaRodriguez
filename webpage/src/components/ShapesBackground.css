@@ -1,0 +1,60 @@
+/* Inicio estilos SVG */
+.animate-bckground {
+  background: linear-gradient(to top, #333446, #1b3c53);
+  margin-top: 0px;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  z-index: 1;
+}
+
+@keyframes girarIzquierda {
+  50% {
+    transform: rotate(-360deg);
+  }
+}
+@keyframes girarDerecha {
+  50% {
+    transform: rotate(360deg);
+  }
+}
+
+.violeta,
+.naranja,
+.rosa,
+.amarillo,
+.verde,
+.rojo {
+  transform-box: fill-box;
+}
+
+.naranja {
+  animation: girarDerecha 7s linear infinite;
+  transform: translate(-10px, -10px) rotate(180deg);
+}
+
+.violeta {
+  animation: girarIzquierda 7s linear infinite;
+  transform: translate(15px, 25px) rotate(180deg);
+}
+
+.rojo {
+  animation: girarIzquierda 7s linear infinite;
+  transform: translate(30px, 50px) rotate(180deg);
+}
+
+.rosa {
+  animation: girarDerecha 7s linear infinite;
+  transform: translate(15px, -30px) rotate(180deg);
+}
+
+.amarillo {
+  animation: girarIzquierda 7s linear infinite;
+  transform: translate(-10px, -50px) rotate(180deg);
+}
+
+.verde {
+  animation: girarIzquierda 7s linear infinite;
+  transform: translate(15px, 15px) rotate(180deg);
+}
+/* Fin estilos SVG */

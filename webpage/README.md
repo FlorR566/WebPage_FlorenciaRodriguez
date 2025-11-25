@@ -1,6 +1,6 @@
-# ✨ Página web personal ✨ 
+# ✨ Página web personal ✨
 
-###  Visitar el sitio online 👉 [https://florr566.github.io/WebPage_FlorenciaRodriguez/]
+### Visitar el sitio online 👉 [https://florr566.github.io/WebPage_FlorenciaRodriguez/]
 
 ## Descripción y desarrollo
 
@@ -12,7 +12,7 @@ Actualmente, estoy trabajando en agregar una versión con React para mejorar la 
 
 ## Diseño y funcionalidades
 
-- Diseño **100% responsive**, optimizado para móviles, tablets y escritorio.  
+- Diseño **100% responsive**, optimizado para móviles, tablets y escritorio.
 - Navegación fluida con **animaciones suaves** (próximamente).
 - Secciones:
   - 🎓 Sobre mi
@@ -20,6 +20,7 @@ Actualmente, estoy trabajando en agregar una versión con React para mejorar la 
   - 📩 Contacto
 
 ## Contacto
+
 - 📧 [Email](mailto:florodriguez.dev@gmail.com)
 - 💼 [LinkedIn](https://www.linkedin.com/in/florenciamabelrodriguez/)
 - 🐙 [GitHub](https://github.com/FlorR566)
