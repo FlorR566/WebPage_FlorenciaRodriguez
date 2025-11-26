@@ -1,5 +1,4 @@
 import ShapesBackground from './components/ShapesBackground';
-import Hero from './components/Hero';
 
 export default function App() {
   return (
@@ -26,8 +25,6 @@ export default function App() {
       {/* HERO SECTION */}
 
       <section id="hero" className="hero">
-        <Hero />
-
         {/* SVG DE FONDO */}
         <ShapesBackground />
       </section>

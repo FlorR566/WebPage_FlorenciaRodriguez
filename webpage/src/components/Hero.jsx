@@ -4,9 +4,7 @@ const Hero = () => {
   return (
     <div className="hero-content">
       <h1>¡Hola! Soy Flor 👩🏼‍💻</h1>
-      <p>
-        Desarrolladora web en formación, bienvenid@ a mi página web personal!
-      </p>
+      <h3>Desarrolladora web en formación, bienvenid@ a mi página web!</h3>
       <a href="#projects" className="btn">
         Ver proyectos
       </a>
