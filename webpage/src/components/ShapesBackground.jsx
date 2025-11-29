@@ -1,5 +1,5 @@
 import { svgShapes } from '../data/svgShapes';
-import './ShapesBackground.css';
+import './shapesBackground.css';
 import Hero from './Hero';
 
 export default function ShapesBackground() {
