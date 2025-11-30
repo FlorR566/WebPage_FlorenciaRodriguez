@@ -17,7 +17,7 @@ header {
   color: white;
   padding: 1rem;
   position: fixed;
-  z-index: 3;
+  z-index: 10;
   width: 100%;
   top: 0;
   left: 0;
@@ -48,7 +48,8 @@ header {
 }
 
 .hero {
-  height: 100vh;
+  height: 100dvh;
+  /* background-color: #62a24b; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -56,6 +57,7 @@ header {
   color: white;
 }
 .hero-content {
+  /* background-color: brown; */
   margin-top: 40vh;
   z-index: 2;
 }
@@ -144,4 +146,137 @@ footer {
   text-align: center;
   padding: 1rem;
   margin-top: 2rem;
+}
+
+/* ---------- VERSIÓN MOBILE ---------- */
+@media (max-width: 768px) {
+  body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+  }
+
+  header {
+    background: #222;
+    color: white;
+    padding: 1rem;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5%;
+    height: 100px;
+  }
+
+  .logo a {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+  }
+
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+
+  .hero {
+    height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+  }
+  .hero-content {
+    height: 100dvh;
+    margin-top: 60dvh;
+    z-index: 5;
+  }
+
+  .hero-content h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero-content h2 {
+    font-size: 2.5rem;
+  }
+
+  .about,
+  .projects,
+  .contact {
+    padding: 5rem 10%;
+    text-align: center;
+  }
+
+  #about {
+    padding-top: 150px;
+    display: grid;
+    place-items: center;
+  }
+  .about p {
+    margin-top: 20px;
+  }
+
+  .projects {
+    padding-top: 140px;
+  }
+
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+
+  .project-card {
+    background: white;
+    padding: 1.5rem;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+
+  .project-a {
+    text-decoration: none;
+    color: #333;
+  }
+
+  .contact a {
+    color: #764ba2;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .div-icons {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 60px;
+  }
+
+  .img-linkedin {
+    margin-right: 20px;
+  }
+
+  .img-github {
+    margin-bottom: 3px;
+  }
+
+  footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+  }
 }

@@ -1,5 +1,4 @@
 // src/data/svgShapes.js
-
 // --------------------------------------
 // PATHS CENTRALIZADOS (rutas que se repiten)
 // --------------------------------------
@@ -18,7 +17,7 @@ export const PATHS = {
   shape11: 'M204.915 62.0716L198.516 57.6231L205.569 54.3052L204.915 62.0716Z',
   shape12: 'M206.115 43.1795L201.52 49.4738L198.365 42.3467L206.115 43.1795Z',
 
-  // ROSA/AMARILLO/VERDE Paths
+  // GRIS/TURQUESA/VERDE Paths
   shapeR1: 'M20.18 77.4156L15.9046 70.9002L23.6858 70.4546L20.18 77.4156Z',
   shapeR2: 'M36.0435 64.0086L29.5066 59.7661L36.4498 56.2253L36.0435 64.0086Z',
   shapeR3: 'M21.6595 44.3707L20.8139 52.1176L14.5266 47.5117L21.6595 44.3707Z',
@@ -37,20 +36,26 @@ export const PATHS = {
 // COLORES CENTRALIZADOS
 // --------------------------------------
 export const COLORS = {
+  // Violeta
   violetaA: '#7C4585',
   violetaB: '#6A2C70',
 
-  rojoA: '#563A9C',
-  rojoB: '#7C4585',
+  // Purpura
+  purpuraA: '#563A9C',
+  purpuraB: '#7C4585',
 
-  naranjaA: '#3E3F5B',
-  naranjaB: '#555879',
+  // Azul Gris
+  azulGrisA: '#3E3F5B',
+  azulGrisB: '#555879',
 
-  rosa: '#748DAE',
+  // Gris
+  gris: '#748DAE',
 
-  amarilloA: '#4DA1A9',
-  amarilloB: '#6A9AB0',
+  // Turquesa
+  turquesaA: '#4DA1A9',
+  turquesaB: '#6A9AB0',
 
+  // Verde
   verdeA: '#84AE92',
   verdeB: '#4A9782',
 };
@@ -77,49 +82,49 @@ export const svgShapes = [
   createShape('violeta-5', 'violeta', COLORS.violetaA, PATHS.shape5),
   createShape('violeta-6', 'violeta', COLORS.violetaB, PATHS.shape6),
 
-  // ----- ROJO -----
-  createShape('rojo-1', 'rojo', COLORS.rojoA, PATHS.shape1),
-  createShape('rojo-2', 'rojo', COLORS.rojoA, PATHS.shape2),
-  createShape('rojo-3', 'rojo', COLORS.rojoA, PATHS.shape3),
-  createShape('rojo-4', 'rojo', COLORS.rojoB, PATHS.shape4),
-  createShape('rojo-5', 'rojo', COLORS.rojoB, PATHS.shape5),
-  createShape('rojo-6', 'rojo', COLORS.rojoB, PATHS.shape6),
+  // ----- PURPURA (ANTES "ROJO") -----
+  createShape('purpura-1', 'purpura', COLORS.purpuraA, PATHS.shape1),
+  createShape('purpura-2', 'purpura', COLORS.purpuraA, PATHS.shape2),
+  createShape('purpura-3', 'purpura', COLORS.purpuraA, PATHS.shape3),
+  createShape('purpura-4', 'purpura', COLORS.purpuraB, PATHS.shape4),
+  createShape('purpura-5', 'purpura', COLORS.purpuraB, PATHS.shape5),
+  createShape('purpura-6', 'purpura', COLORS.purpuraB, PATHS.shape6),
 
-  // ----- NARANJA -----
-  createShape('naranja-1', 'naranja', COLORS.naranjaA, PATHS.shape1),
-  createShape('naranja-2', 'naranja', COLORS.naranjaA, PATHS.shape2),
-  createShape('naranja-3', 'naranja', COLORS.naranjaA, PATHS.shape3),
-  createShape('naranja-4', 'naranja', COLORS.naranjaA, PATHS.shape4),
-  createShape('naranja-5', 'naranja', COLORS.naranjaA, PATHS.shape5),
-  createShape('naranja-6', 'naranja', COLORS.naranjaA, PATHS.shape6),
+  // ----- AZUL GRIS (ANTES "NARANJA") -----
+  createShape('azulgris-1', 'azulgris', COLORS.azulGrisA, PATHS.shape1),
+  createShape('azulgris-2', 'azulgris', COLORS.azulGrisA, PATHS.shape2),
+  createShape('azulgris-3', 'azulgris', COLORS.azulGrisA, PATHS.shape3),
+  createShape('azulgris-4', 'azulgris', COLORS.azulGrisA, PATHS.shape4),
+  createShape('azulgris-5', 'azulgris', COLORS.azulGrisA, PATHS.shape5),
+  createShape('azulgris-6', 'azulgris', COLORS.azulGrisA, PATHS.shape6),
 
-  // ----- ROSA -----
-  createShape('rosa-1', 'rosa', COLORS.rosa, PATHS.shapeR1),
-  createShape('rosa-2', 'rosa', COLORS.rosa, PATHS.shapeR2),
-  createShape('rosa-3', 'rosa', COLORS.rosa, PATHS.shapeR3),
-  createShape('rosa-4', 'rosa', COLORS.rosa, PATHS.shapeR4),
-  createShape('rosa-5', 'rosa', COLORS.rosa, PATHS.shapeR5),
-  createShape('rosa-6', 'rosa', COLORS.rosa, PATHS.shapeR6),
-  createShape('rosa-7', 'rosa', COLORS.rosa, PATHS.shapeR7),
-  createShape('rosa-8', 'rosa', COLORS.rosa, PATHS.shapeR8),
-  createShape('rosa-9', 'rosa', COLORS.rosa, PATHS.shapeR9),
-  createShape('rosa-10', 'rosa', COLORS.rosa, PATHS.shapeR10),
-  createShape('rosa-11', 'rosa', COLORS.rosa, PATHS.shapeR11),
-  createShape('rosa-12', 'rosa', COLORS.rosa, PATHS.shapeR12),
+  // ----- GRIS -----
+  createShape('gris-1', 'gris', COLORS.gris, PATHS.shapeR1),
+  createShape('gris-2', 'gris', COLORS.gris, PATHS.shapeR2),
+  createShape('gris-3', 'gris', COLORS.gris, PATHS.shapeR3),
+  createShape('gris-4', 'gris', COLORS.gris, PATHS.shapeR4),
+  createShape('gris-5', 'gris', COLORS.gris, PATHS.shapeR5),
+  createShape('gris-6', 'gris', COLORS.gris, PATHS.shapeR6),
+  createShape('gris-7', 'gris', COLORS.gris, PATHS.shapeR7),
+  createShape('gris-8', 'gris', COLORS.gris, PATHS.shapeR8),
+  createShape('gris-9', 'gris', COLORS.gris, PATHS.shapeR9),
+  createShape('gris-10', 'gris', COLORS.gris, PATHS.shapeR10),
+  createShape('gris-11', 'gris', COLORS.gris, PATHS.shapeR11),
+  createShape('gris-12', 'gris', COLORS.gris, PATHS.shapeR12),
 
-  // ----- AMARILLO -----
-  createShape('amarillo-1', 'amarillo', COLORS.amarilloA, PATHS.shapeR1),
-  createShape('amarillo-2', 'amarillo', COLORS.amarilloA, PATHS.shapeR2),
-  createShape('amarillo-3', 'amarillo', COLORS.amarilloA, PATHS.shapeR3),
-  createShape('amarillo-4', 'amarillo', COLORS.amarilloA, PATHS.shapeR4),
-  createShape('amarillo-5', 'amarillo', COLORS.amarilloA, PATHS.shapeR5),
-  createShape('amarillo-6', 'amarillo', COLORS.amarilloB, PATHS.shapeR6),
-  createShape('amarillo-7', 'amarillo', COLORS.amarilloB, PATHS.shapeR7),
-  createShape('amarillo-8', 'amarillo', COLORS.amarilloB, PATHS.shapeR8),
-  createShape('amarillo-9', 'amarillo', COLORS.amarilloB, PATHS.shapeR9),
-  createShape('amarillo-10', 'amarillo', COLORS.amarilloB, PATHS.shapeR10),
-  createShape('amarillo-11', 'amarillo', COLORS.amarilloB, PATHS.shapeR11),
-  createShape('amarillo-12', 'amarillo', COLORS.amarilloB, PATHS.shapeR12),
+  // ----- TURQUESA (ANTES “AMARILLO”) -----
+  createShape('turquesa-1', 'turquesa', COLORS.turquesaA, PATHS.shapeR1),
+  createShape('turquesa-2', 'turquesa', COLORS.turquesaA, PATHS.shapeR2),
+  createShape('turquesa-3', 'turquesa', COLORS.turquesaA, PATHS.shapeR3),
+  createShape('turquesa-4', 'turquesa', COLORS.turquesaA, PATHS.shapeR4),
+  createShape('turquesa-5', 'turquesa', COLORS.turquesaA, PATHS.shapeR5),
+  createShape('turquesa-6', 'turquesa', COLORS.turquesaB, PATHS.shapeR6),
+  createShape('turquesa-7', 'turquesa', COLORS.turquesaB, PATHS.shapeR7),
+  createShape('turquesa-8', 'turquesa', COLORS.turquesaB, PATHS.shapeR8),
+  createShape('turquesa-9', 'turquesa', COLORS.turquesaB, PATHS.shapeR9),
+  createShape('turquesa-10', 'turquesa', COLORS.turquesaB, PATHS.shapeR10),
+  createShape('turquesa-11', 'turquesa', COLORS.turquesaB, PATHS.shapeR11),
+  createShape('turquesa-12', 'turquesa', COLORS.turquesaB, PATHS.shapeR12),
 
   // ----- VERDE -----
   createShape('verde-1', 'verde', COLORS.verdeA, PATHS.shapeR1),
