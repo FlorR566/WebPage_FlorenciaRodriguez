@@ -8,7 +8,6 @@ import Footer from './components/Footer';
 export default function App() {
   return (
     <>
-      {/*  <Header /> */}
       <Header />
       {/* HERO SECTION DENTRO DE SHAPESBACKGROUND */}
       {/* SVG DE FONDO */}

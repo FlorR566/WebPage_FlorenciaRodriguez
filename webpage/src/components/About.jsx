@@ -6,12 +6,14 @@ const About = () => {
       <section id="about" className="about">
         <h2>Sobre mí</h2>
         <p>
-          Estudio la Tecnicatura Universitaria en Programación en la UTN,
+          Soy estudiante de la Tecnicatura Universitaria en Programación en la
+          UTN y
           <br />
-          actualmente desarrollo proyectos personales en React, además de haber
-          aprendido html, css,
+          actualmente me encuentro desarrollad proyectos personales con
+          <strong> React</strong>.
           <br />
-          Javascript y Python en cursos de manera autodidacta.
+          Manejo tecnologías como <strong>HTML</strong>, <strong>CSS</strong>,{' '}
+          <strong>JavaScript</strong> y <strong>Python</strong>.
         </p>
       </section>
     </div>

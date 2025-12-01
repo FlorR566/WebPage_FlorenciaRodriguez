@@ -39,39 +39,55 @@
 }
 
 /* Animaciones de shapes */
-.violeta,
+.violetaA,
+.violetaB,
 .gris,
 .verde,
 .turquesa,
-.rosa,
-.naranja {
+.purpura,
+.azulgris,
+.azulgrisB {
   transform-box: fill-box;
 }
 
 /* ajustes por color */
-.violeta {
-  transform: translate(20px, 30px) rotate(180deg);
-  animation: girarIzquierda 7s linear infinite;
+.violetaA {
+  transform: translate(50px, 70px) rotate(180deg);
+  animation: girarIzquierda 15s linear infinite;
+}
+
+.violetaB {
+  transform: translate(-30px, 10px) rotate(180deg);
+  animation: girarIzquierda 15s linear infinite;
+}
+
+.azulgris {
+  transform: translate(50px, 40px) rotate(180deg);
+  animation: girarDerecha 15s linear infinite;
+}
+
+.azulgrisB {
+  transform: translate(-40px, 30px) rotate(180deg);
+  animation: girarIzquierda 15s linear infinite;
+}
+.purpura {
+  transform: translate(40px, 35px) rotate(180deg);
+  animation: girarDerecha 15s linear infinite;
+}
+
+.turquesa {
+  transform: translate(0px, 45px) rotate(180deg);
+  animation: girarDerecha 15s linear infinite;
 }
 
 .verde {
   transform: translate(10px, -10px) rotate(180deg);
-  animation: girarIzquierda 8s linear infinite;
-}
-
-.rosa {
-  transform: translate(10px, -10px) rotate(180deg);
-  animation: girarIzquierda 8s linear infinite;
-}
-
-.turquesa {
-  transform: translate(-25px, 45px) rotate(180deg);
-  animation: girarDerecha 6s linear infinite;
+  animation: girarIzquierda 15s linear infinite;
 }
 
 .gris {
   transform: translate(15px, -35px) rotate(180deg);
-  animation: girarDerecha 9s linear infinite;
+  animation: girarDerecha 15s linear infinite;
 }
 
 /* ---------- VERSIÓN MOBILE ---------- */
